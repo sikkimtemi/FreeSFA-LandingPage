@@ -33,11 +33,11 @@
                     <p>ご相談やお問い合わせがありましたら、下記のフォームよりご連絡ください。</p>
                 </div>
                 <form name="contact" method="POST" netlify>
-                    <div class="form-group"><label>お名前（フルネーム）</label><input class="form-control" type="text"></div>
-                    <div class="form-group"><label>貴社名</label><input class="form-control" type="text"></div>
-                    <div class="form-group"><label>電話番号</label><input class="form-control" type="text"></div>
-                    <div class="form-group"><label>メールアドレス</label><input class="form-control" type="email"></div>
-                    <div class="form-group"><label>ご相談・お問い合わせ内容</label><textarea class="form-control"></textarea></div>
+                    <div class="form-group"><label>お名前（フルネーム）</label><input class="form-control" type="text" name="name"></div>
+                    <div class="form-group"><label>貴社名</label><input class="form-control" type="text" name="company"></div>
+                    <div class="form-group"><label>電話番号</label><input class="form-control" type="text" name="phonenumber"></div>
+                    <div class="form-group"><label>メールアドレス</label><input class="form-control" type="email" name="email"></div>
+                    <div class="form-group"><label>ご相談・お問い合わせ内容</label><textarea class="form-control" name="message"></textarea></div>
                     <div class="form-group"><button class="btn btn-primary btn-block" type="submit">この内容で送信する</button></div>
                 </form>
             </div>
