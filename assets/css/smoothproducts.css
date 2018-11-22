@@ -173,3 +173,7 @@ html, body {
   }
 }
 
+#id_info {
+  margin-top:-50px;
+  padding-top:50px;
+}
